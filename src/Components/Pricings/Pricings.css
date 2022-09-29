@@ -1,0 +1,53 @@
+.pricings {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  background-color: #f2f2f2;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.pricings h2 {
+  font-family: "Cookie";
+  font-size: 40px;
+}
+
+.imag {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 70px; */
+}
+
+.imag img {
+  height: 300px;
+  width: 400px;
+  padding: 20px;
+  gap: 100px;
+  cursor: pointer;
+}
+
+.imag h3 {
+  font-family: "Cookie";
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.imag h3,
+p {
+  padding-left: 20px;
+}
+
+.doll {
+  font-size: 20px;
+  color: red;
+  font-weight: bolder;
+}
+
+.imag img:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease-in-out;
+}

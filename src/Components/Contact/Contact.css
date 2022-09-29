@@ -1,0 +1,41 @@
+.social {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  /* background-color: gray; */
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  /* justify-content: center; */
+}
+
+.social h2 {
+  font-family: cookie;
+  font-size: 30px;
+}
+
+.options {
+  cursor: pointer;
+}
+
+.ico {
+  font-size: 20px;
+}
+
+.fot {
+  background-image: url(../../Assets/pexels-pixabay-326279.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  margin: 20px;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fot h3 {
+  font-family: cookie;
+  font-size: 32px;
+  color: white;
+}

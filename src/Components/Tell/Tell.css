@@ -1,0 +1,28 @@
+.tell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Assets/pexels-pixabay-326279.jpg);
+  background-size: cover;
+  flex-direction: column;
+}
+
+.tell h3 {
+  color: white;
+  font-size: 40px;
+  font-family: "Cookie";
+}
+
+.btn {
+  height: 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  background-color: #bf2723;
+}

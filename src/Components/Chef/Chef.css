@@ -1,0 +1,105 @@
+.chef {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chef h3 {
+  font-family: cookie;
+  font-size: 40px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.subcon1 {
+  height: 480px;
+  width: 300px;
+  background-color: white;
+  /* display: flex; */
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subcon1 h2 {
+  font-family: cookie;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.subcon1 p {
+  font-family: "Ms Madi", cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact {
+  background-color: crimson;
+  color: white;
+  height: 40px;
+  width: 200px;
+  margin-left: 48px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.subcon1:hover {
+  transform: scaleX(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.subcon2 {
+  height: 280px;
+  width: 300px;
+  background-color: white;
+  /* display: flex; */
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subcon2 p {
+  font-family: "Ms Madi", cursive;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.subcon2:hover {
+  transform: scaleX(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.chef h4 {
+  font-size: 40px;
+  padding: 20px;
+  font-family: cookie;
+}
+
+.ad {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}

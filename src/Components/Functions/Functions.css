@@ -1,0 +1,34 @@
+.functions {
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.functions h2 {
+  font-family: "Cookie";
+  font-size: 50px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.hot {
+  color: red;
+  margin-left: 40px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.functions h3 {
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: "Cookie";
+}

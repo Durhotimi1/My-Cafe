@@ -1,0 +1,35 @@
+.more {
+  display: flex;
+  justify-content: space-between;
+  height: 60vh;
+  padding: 10px;
+}
+
+.img1 {
+  height: 600px;
+  width: 500px;
+}
+
+.more div {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.more h2 {
+  font-family: "Cookie";
+  font-size: 50px;
+}
+
+.more h5 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.sec2 {
+  font-size: 27px;
+  padding-left: 80px;
+  font-family: "Ms Madi", cursive;
+}

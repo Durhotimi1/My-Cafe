@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  height: 70vh;
+  width: 100%;
+  background-image: url(../../Assets/background.jpg);
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title h1 {
+  font-family: "Cookie", cursive;
+  color: white;
+  font-size: 50px;
+}
+
+.title p {
+  color: white;
+}
+
+.btn1 {
+  background-color: #bf2723;
+  height: 50px;
+  width: 130px;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
